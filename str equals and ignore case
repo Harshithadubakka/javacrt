@@ -1,0 +1,15 @@
+import java.util.*;
+class sample
+{
+    public static void main(String args[])
+    {
+
+    
+    String str1=new String("harshu");
+    String str2=new String("HARSHU");
+    System.out.println(str1.equals(str2));
+    System.out.println(str1.equalsIgnoreCase(str2));
+
+   }
+  }
+
