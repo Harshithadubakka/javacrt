@@ -1,0 +1,11 @@
+import java.util.*;
+public class test 
+{
+public static void main(String[] args) 
+{
+
+String[] a= {"python","is","simple","language"};
+String s2=String.join(" ",a);
+System.out.println(s2);
+}
+ }
