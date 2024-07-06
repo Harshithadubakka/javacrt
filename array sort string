@@ -1,0 +1,14 @@
+import java.util.*;
+public class text
+ {
+    public static void main(String args[])
+    {
+    Scanner s=new Scanner(System.in); 
+     String s1="Harshu";
+     char a[]=s1.toCharArray();
+     Arrays.sort(a);
+     String s2=new String(a);
+     System.out.println(s2);
+
+    }
+}
